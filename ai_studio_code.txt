@@ -1,0 +1,31 @@
+omega-x/
+├── package.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── tailwind.config.js
+├── postcss.config.js
+├── .env.example
+├── server/
+│   ├── index.ts
+│   └── routes/
+│       └── health.ts
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── index.css
+    ├── types/
+    │   └── index.ts
+    ├── hooks/
+    │   └── useHealthCheck.ts
+    ├── components/
+    │   ├── common/
+    │   │   ├── MetricCard.tsx
+    │   │   └── StatusBadge.tsx
+    │   ├── layout/
+    │   │   ├── Header.tsx
+    │   │   ├── Sidebar.tsx
+    │   │   └── Shell.tsx
+    │   └── views/
+    │       ├── DashboardView.tsx
+    │       └── PlaceholderView.tsx
